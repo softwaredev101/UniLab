@@ -23,4 +23,4 @@ jobs:
       run: dotnet test --no-build
       working-directory: ./Tests
     - name: Run
-      run: dotnet run
+      run: dotnet run UniLab.csproj
