@@ -6,6 +6,7 @@ namespace UniLab
     {
         static void Main(string[] args)
         {
+            int x = "Y";
             Console.WriteLine("Hello World!");
         }
     }
