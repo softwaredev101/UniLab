@@ -8,7 +8,7 @@ namespace Tests
         [Fact]
         public void Test1()
         {
-
+					Assert.Equal("x","10");
         }
     }
 }
