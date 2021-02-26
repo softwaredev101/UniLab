@@ -20,4 +20,5 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Test
-      run: dotnet test Tests --no-build --verbose
+      run: dotnet test Tests --no-build --verbosity normal
+      working-directory: /Tests
